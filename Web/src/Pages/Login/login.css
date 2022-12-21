@@ -1,0 +1,51 @@
+.login {
+    background: white;
+    color: black;
+    padding: 24px;
+    height: 250px;
+    width: 350px;
+    border-radius: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.login-inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.login-inputs label {
+    display: flex;
+    padding-bottom: 8px;
+}
+
+.login-inputs input {
+    height: 24px;
+}
+
+.login-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-buttons p {
+    margin: 0 0 8px;
+    font-size: 16px;
+}
+
+.submit-button input {
+    height: 30px;
+    width: 60px;
+    background: aliceblue;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.submit-button input:hover {
+    background: cadetblue;
+}
+
+.admin {
+    background-color: #282c34;
+}
